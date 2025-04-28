@@ -1,0 +1,45 @@
+body {
+    margin: 500;
+    padding: 100 ;
+    background-color: #2988a3;
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    padding: 2px 0px ;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .main-box {
+    background-color: #f18743;
+    color: white;
+    font-size: 2.5em;
+    padding: 30px 80px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #ffffff;
+    z-index: 2;
+    position: relative;
+  }
+
+  .bottom-box {
+    background-color: #a4ddf5;
+    color: black;
+    font-size: 1.2em;
+    padding: 15px 40px;
+    border-radius: 15px;
+    
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 6px 12px 0px #00000044;
+    z-index: 1;
+    position:relative;
+  }
