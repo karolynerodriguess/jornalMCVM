@@ -1,0 +1,38 @@
+body {
+    margin: 500;
+    padding: 100 ;
+    background-color: #2988a3;
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+   
+  a:hover{
+    color:blue;
+}
+
+#banner{
+    background-image: url("/img2/roxo.jpg"); 
+    background-position: 100% ;
+    background-repeat: no-repeat;
+    color:rgb(255, 255, 255); 
+    text-align:center; 
+    padding:2em 0;
+    background-size:cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+
+}
+#menu{
+    background-color: rgb(136, 37, 217); 
+    padding:0.5em; 
+    text-align:center;
+}
+.link{
+    color: rgb(255, 255, 255); 
+    text-decoration:none; 
+    margin:0 15px;
+}
